@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+
+body{
+  font-family: 'Raleway', sans-serif !important;
+}
+.banner{
+  width: 100%;
+  min-height: 700px;
+  float: left;
+  position: relative;
+  background: url(../images/banner.jpg);
+}
+.banner_left img{
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.banner_left p{
+  text-align: center;
+  color: #000000;
+  font-size: 26px;
+}
+.banner_left H3{
+  text-align: center;
+  color: #2f1600;
+  font-size: 26px;
+  text-transform: uppercase;
+  border: 1px solid #2f1600;
+  padding: 15px;
+  margin-top: 150px;
+}
+.banner_left H1{
+  text-align: center;
+  color: #2f1600;
+  font-size: 52px;
+  padding: 15px;
+}
+
+.banner_form{
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  float: left;
+  position: relative;
+  background: #ece8dd;
+  padding: 30px;
+}
+.banner_form H3{
+  text-align: center;
+  color: #2f1600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.banner_form p{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.banner_form .form-group label{
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+}
+.banner_form .form-group .text{
+  background: #f7f6f1;
+  border: none;
+  padding: 15px;
+  height: 45px;
+  border-radius: 0;
+  outline: none;
+}
+.banner_form .form-group h3{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.banner_form .btn{
+  background: #2f1600;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  float: left;
+  border-radius: 50px;
+}
+
+
+
+
+.section1{
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  position: relative;
+  padding: 70px 0;
+}
+.section1 h1{
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  color: #212121;
+}
+.section1 p{
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  color: #212121;
+  margin-bottom: 30px;
+}
+.stack_street{
+  width: 100%;
+  min-height: 100px;
+  float: left;
+  position: relative;
+  background: #ece8dd;
+  padding-left: 50px;
+  margin: 15px 0;
+}
+.stack_street:hover{
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(168,168,168,0.5);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(168,168,168,0.5);
+  box-shadow: 5px 5px 10px 0px rgba(168,168,168,0.5);
+}
+.stack_street span{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 44px;
+  height: 47px;
+  background: url(../images/check_round.png) no-repeat center center;
+}
+.stack_street p{
+  text-align: left;
+  font-size: 16px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
