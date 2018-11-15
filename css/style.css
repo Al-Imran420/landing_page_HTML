@@ -521,3 +521,53 @@ body{
   text-decoration: none;
 }
 /*End section7*/
+
+@media (max-width: 991px) {
+  .about_us_cont{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 700px) {
+  .section4 .row{
+    margin: 0;
+  }
+  .section4 .row span{
+    width: 100%;
+    background: #b89d64 !important;
+    margin-bottom: 30px;
+    float: left;
+    height: auto;
+    padding: 15px;
+    line-height: 26px;
+  }
+  .banner_left H3{
+    margin-top: 30px;
+  }
+  .section4 .row p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 414px) {
+  .banner_left p{
+    font-size: 20px;
+  }
+  .banner_left H3{
+    font-size: 18px;
+  }
+  .banner_left H1{
+    font-size: 26px;
+  }
+  .section1 h1{
+    font-size: 26px;
+  }
+  .section2 h1{
+    font-size: 26px;
+  }
+  .section3 h1{
+    font-size: 26px;
+  }
+  .section5 h1{
+    font-size: 26px;
+  }
+}
